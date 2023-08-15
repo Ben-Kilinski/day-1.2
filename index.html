@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+    var width = 4;
+    var height = 4;
+    var squere = width*height + "cm";
+    console.log(squere)
+        
+        
+        // הגדרת משתנים
+        var num1 = 5;
+        var num2 = 10;
+
+        console.log("ערכי המשתנים לפני ההחלפה:");
+        console.log("num1:", num1);
+        console.log("num2:", num2);
+
+        // החלפת הערכים
+        var temp = num1; //temp guarda o valor oringinal de num1 (5)
+        num1 = num2; //nessa proxima etapa num1 perde seu valor original de 5 e recebe o valor de num2 (10), porem temp ainda vale 5
+        num2 = temp;
+
+        console.log("ערכי המשתנים אחרי ההחלפה:");
+        console.log("num1:", num1);
+        console.log("num2:", num2);
+    </script>
+    
+</body>
+</html>
