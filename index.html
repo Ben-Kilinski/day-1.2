@@ -8,12 +8,7 @@
 <body>
     
     <script>
-    var width = 4;
-    var height = 4;
-    var squere = width*height + "cm";
-    console.log(squere)
-        
-        
+ 
         // הגדרת משתנים
         var num1 = 5;
         var num2 = 10;
@@ -30,6 +25,41 @@
         console.log("ערכי המשתנים אחרי ההחלפה:");
         console.log("num1:", num1);
         console.log("num2:", num2);
+        
+        
+        var userAge = prompt ("your age");
+        var yourAgein2050 = (+userAge + 27);
+        alert(yourAgein2050) //that's your age in 2050
+
+        var width = prompt("insert a width");
+        var height = prompt("insert a hight");
+        var square = +width*+height + "cm";
+        console.log(square)
+
+        var n1 = prompt("insert a number")
+        var n2 = prompt("insert another number")
+        //division result
+        var res = n1 / n2
+        console.log(res)
+        
+
+        var temp = n1
+        var n1 = n2
+        var n2 = temp
+        //inverted order division result
+        var res = n1 / n2
+        console.log(res)
+
+        var x1 = prompt("choose a number");
+        var x2 = prompt("choose another number");
+        var x3 = prompt("another one again");
+        var mul = +x1 * +x2 * +x3;
+        console.log(mul);
+
+        
+        
+        
+        
     </script>
     
 </body>
